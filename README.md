@@ -52,10 +52,10 @@ Players are presented with a visual programming interface consisting of:
 ## 🔍 Example Solution
 
 ```asm
-@1
+@1 LINE_01:
 @2 mov rax,[ib]
 @3 mov [ob],rax
-@4 jmp LINE 01
+@4 jmp LINE_01
 ```
 
 This loop continuously reads from the Input Buffer into register `rax`, writes the value to the Output Buffer, and jumps back to repeat the process.
