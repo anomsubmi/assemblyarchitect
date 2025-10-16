@@ -1,12 +1,12 @@
 # Assembly Arquitect
 
-**Assembly Arquitect** is an educational puzzle game designed to teach fundamental programming concepts through a visual and interactive interface inspired by low-level assembly language. The game challenges players to manipulate data using a minimal instruction set and register-based logic, fostering algorithmic thinking and a deeper understanding of computer architecture.
+**Assembly Arquitect** is an educational puzzle game designed to teach fundamental programming concepts through a visual and interactive interface inspired by x86 assembly language. The game challenges players to manipulate data using a real instruction set and register-based logic, fostering algorithmic thinking and a deeper understanding of computer architecture.
 
 ---
 
 ## 🧠 Concept Overview
 
-Assembly Arquitect simulates a simplified assembly-like environment where players must solve increasingly complex tasks by writing code that manipulates data between an **Input Buffer (IB)** and an **Output Buffer (OB)** using virtual registers and instructions.
+Assembly Arquitect simulates a assembly-like environment where players must solve increasingly complex tasks by writing code that manipulates data between an **Input Buffer (IB)** and an **Output Buffer (OB)** using virtual registers and real x86 instructions.
 
 The game is inspired by pedagogical principles from programming education and cognitive load theory, aiming to:
 - Reinforce understanding of memory operations.
@@ -19,12 +19,12 @@ The game is inspired by pedagogical principles from programming education and co
 
 Players are presented with a visual programming interface consisting of:
 
-- **Instruction Set**: Limited to basic operations such as `mov`, `add`, and `jmp`.
+- **Instruction Set**: Currently limited to basic operations such as `mov`, `add`, and `jmp`.
 - **Registers**: Virtual registers (`rax`, `rbx`, `rcx`) used to store and manipulate data.
 - **Buffers**: 
   - **Input Buffer [IB]**: Source of data values.
   - **Output Buffer [OB]**: Destination for processed values.
-- **Code Panel**: Where players drag and drop instructions to build their solution.
+- **Code Box**: Where players drag and drop instructions to build their solution.
 - **Execution Controls**: Step-through or run the program to test logic.
 
 ---
@@ -88,6 +88,22 @@ Assembly Arquitect is designed to support the following learning outcomes:
 - Experience a simplified model of instruction execution.
 
 ---
+
+## 🚧 Development Status
+
+Assembly Arquitect is currently under active development. The existing version includes a foundational set of x86-inspired instructions and nine tutorial levels designed to introduce core concepts such as register manipulation, memory access, and control flow.
+
+Planned future enhancements include:
+- Support for additional x86 instructions (e.g., stack operations, arithmetic, and logic instructions).
+- New levels introducing advanced topics such as recursion and memory operands.
+- Step-by-step execution mode for debugging and learning.
+- In-game contextual help and instruction documentation.
+- Instruction duplication and improved code editing features.
+
+These features aim to expand the game’s fidelity to real-world x86 assembly language and enhance its pedagogical value.
+
+---
+
 
 ## 🛠️ Installation
 
