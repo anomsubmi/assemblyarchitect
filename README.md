@@ -35,6 +35,22 @@ Players are presented with a visual programming interface consisting of:
 ![Level Interface](interface.png)
 *Level 09: Move values from IB to OB using a maximum of 3 instructions.*
 
+## 🧭 Interface Elements
+
+Assembly Architect’s interface is composed of interactive components that simulate x86 assembly programming through spatial metaphors and animated agents. Each element is designed to reinforce architectural constraints and support intuitive learning.
+
+| **Label** | **Element Name**         | **Description** |
+|----------|---------------------------|-----------------|
+| 1        | **Instruction Roster**    | Allows players to select and drag instructions into the Code Box. The available instructions vary by level to support incremental learning. |
+| 2        | **Code Box**              | The workspace where players assemble their code. Instructions can be rearranged, edited, or removed. |
+| 3        | **Challenge Description** | Provides a textual overview of the level’s objective, guiding players toward the intended solution. |
+| 4        | **Register Box**          | Displays the available registers for use as operands. |
+| 5        | **Registers Agent**       | Facilitates data exchange between registers and the Input/Output Buffer Agents. Movement is constrained by a yellow rail. |
+| 6        | **Input Buffer Agent**    | Transfers values from the Input Buffer to the Registers Agent. Movement is constrained by a magenta rail. |
+| 7        | **Output Buffer Agent**   | Moves values from the Registers Agent to the Output Buffer. Movement is constrained by a cyan rail. |
+| 8        | **Input Buffer**          | Modeled as a memory address simulating a read-and-consume I/O buffer. Provides input values for processing. |
+| 9        | **Output Buffer**         | A memory-mapped location where the player’s output is deposited and evaluated against expected results to determine challenge success. |
+
 ---
 
 ### 🧠 Code Execution
