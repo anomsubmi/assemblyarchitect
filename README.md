@@ -1,4 +1,4 @@
-# Assembly architect
+# Assembly Architect
 
 **Assembly Architect** is an educational puzzle game designed to teach fundamental programming concepts through a visual and interactive interface inspired by x86 assembly language. The game challenges players to manipulate data using a real instruction set and register-based logic, fostering algorithmic thinking and a deeper understanding of computer architecture.
 
