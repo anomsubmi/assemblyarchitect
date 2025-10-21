@@ -1,12 +1,12 @@
-# Assembly Arquitect
+# Assembly architect
 
-**Assembly Arquitect** is an educational puzzle game designed to teach fundamental programming concepts through a visual and interactive interface inspired by x86 assembly language. The game challenges players to manipulate data using a real instruction set and register-based logic, fostering algorithmic thinking and a deeper understanding of computer architecture.
+**Assembly Architect** is an educational puzzle game designed to teach fundamental programming concepts through a visual and interactive interface inspired by x86 assembly language. The game challenges players to manipulate data using a real instruction set and register-based logic, fostering algorithmic thinking and a deeper understanding of computer architecture.
 
 ---
 
 ## 🧠 Concept Overview
 
-Assembly Arquitect simulates a assembly-like environment where players must solve increasingly complex tasks by writing code that manipulates data between an **Input Buffer (IB)** and an **Output Buffer (OB)** using virtual registers and real x86 instructions.
+Assembly architect simulates a assembly-like environment where players must solve increasingly complex tasks by writing code that manipulates data between an **Input Buffer (IB)** and an **Output Buffer (OB)** using virtual registers and real x86 instructions.
 
 The game is inspired by pedagogical principles from programming education and cognitive load theory, aiming to:
 - Reinforce understanding of memory operations.
@@ -80,7 +80,7 @@ This loop continuously reads from the Input Buffer into register `rax`, writes t
 
 ## 📚 Educational Objectives
 
-Assembly Arquitect is designed to support the following learning outcomes:
+Assembly architect is designed to support the following learning outcomes:
 
 - Understand the role of registers and memory in computation.
 - Practice control flow using jumps and loops.
@@ -91,7 +91,7 @@ Assembly Arquitect is designed to support the following learning outcomes:
 
 ## 🚧 Development Status
 
-Assembly Arquitect is currently under active development. The existing version includes a foundational set of x86-inspired instructions and nine tutorial levels designed to introduce core concepts such as register manipulation, memory access, and control flow.
+Assembly architect is currently under active development. The existing version includes a foundational set of x86-inspired instructions and nine tutorial levels designed to introduce core concepts such as register manipulation, memory access, and control flow.
 
 Planned future enhancements include:
 - Support for additional x86 instructions (e.g., stack operations, arithmetic, and logic instructions).
@@ -110,8 +110,8 @@ These features aim to expand the game’s fidelity to real-world x86 assembly la
 To run the game locally:
 
 ```bash
-git clone https://github.com/yourusername/assembly-arquitect.git
-cd assembly-arquitect
+git clone https://github.com/yourusername/assembly-architect.git
+cd assembly-architect
 make
 ./assembly
 ```
